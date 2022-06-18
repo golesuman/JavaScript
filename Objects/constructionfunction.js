@@ -9,7 +9,7 @@ function createCircle(radius)
     };
 }
 
-function Circle(radius)
+function Circle(radius)  // construction function
 {
     this.radius = radius;
     this.draw = function()
